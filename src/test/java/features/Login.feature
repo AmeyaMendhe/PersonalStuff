@@ -9,7 +9,7 @@ Feature:To verify login functionality
     And Enters valid Credentials
     Then User should be logged in successfully
 
-  @Second
+
   Scenario: Verify login functionality with Invalid Credentials
     Given User launch Carters Homepage
     When User clicks on My Account
